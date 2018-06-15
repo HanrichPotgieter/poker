@@ -1,6 +1,7 @@
 
 import Hand.Hand;
 import deck.Deck;
+import shuffler.BasicSuffler;
 
 public class Main extends DefaultSetup {
 
@@ -11,6 +12,7 @@ public class Main extends DefaultSetup {
 
         setupDefaults();
         buildDeck();
+        deck.setSuffler(new BasicSuffler());
         System.out.println(SHUFFLING);
         deck.shuffle();
         System.out.println(SHUFFLING);
@@ -29,6 +31,7 @@ public class Main extends DefaultSetup {
         System.out.println(hand.toString());
         System.out.println("YOU HAVE A");
         System.out.println(hand.evaluate());
+
 
     }
 

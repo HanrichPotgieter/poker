@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ab8ae4-3bb5-459c-8320-4c43870c823e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/shuffler/BasicSuffler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shuffler/CardShuffler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shuffler/BasicSuffler.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/deck/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/deck/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/card/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/card/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shuffler/BasicSuffler.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -66,8 +68,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="168">
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,25 +110,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicSuffler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/shuffler/BasicSuffler.java">
+      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/card/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="181">
+              <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2076#2077#0" expanded="true" />
+                <element signature="e#2166#2167#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/card/Card.java">
+      <file leaf-file-name="BasicSuffler.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/shuffler/BasicSuffler.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
-              <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
+            <state relative-caret-position="120">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#18#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,8 +148,8 @@
       <file leaf-file-name="Deck.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/deck/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="54" column="75" selection-start-line="54" selection-start-column="75" selection-end-line="54" selection-end-column="75" />
+            <state relative-caret-position="160">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,18 +169,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeckTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/deck/DeckTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -184,6 +176,7 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -194,6 +187,7 @@
       <find>suffle</find>
       <find>shuffle</find>
       <find>sull</find>
+      <find>suff</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -726,10 +720,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Hand/Hand.java" />
         <option value="$PROJECT_DIR$/src/main/java/DefaultDeck.java" />
         <option value="$PROJECT_DIR$/src/main/java/DefaultSetup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/card/Card.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/shuffler/CardShuffler.java" />
         <option value="$PROJECT_DIR$/src/main/java/shuffler/BasicSuffler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/card/Card.java" />
+        <option value="$PROJECT_DIR$/src/main/java/shuffler/BasicSuffler.kt" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/deck/Deck.java" />
       </list>
@@ -884,7 +879,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in com.hanrich.poker.pokertest_test">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="com.hanrich.poker.pokertest_main" />
@@ -990,8 +985,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in com.hanrich.poker.pokertest_test" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in com.hanrich.poker.pokertest_test" />
         <item itemvalue="JUnit.CardTest" />
         <item itemvalue="JUnit.DeckTest" />
         <item itemvalue="JUnit.HandTest" />
@@ -1009,12 +1004,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HandTest - 2018.06.15 at 17h 25m 17s.xml">
-      <configuration name="HandTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HandTest - 2018.06.15 at 17h 25m 21s.xml">
-      <configuration name="HandTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HandTest - 2018.06.15 at 17h 25m 25s.xml">
       <configuration name="HandTest" configurationId="JUnit" />
     </history-entry>
@@ -1039,6 +1028,12 @@
     <history-entry file="All_in_com_hanrich_poker_pokertest_test - 2018.06.15 at 20h 05m 16s.xml">
       <configuration name="All in com.hanrich.poker.pokertest_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_com_hanrich_poker_pokertest_test - 2018.06.15 at 20h 08m 20s.xml">
+      <configuration name="All in com.hanrich.poker.pokertest_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_hanrich_poker_pokertest_test - 2018.06.15 at 20h 10m 13s.xml">
+      <configuration name="All in com.hanrich.poker.pokertest_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1046,17 +1041,17 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.4985694" visible="true" weight="0.32969698" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50429183" side_tool="true" visible="true" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49570817" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49499285" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49713877" weight="0.32969698" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49642345" weight="0.32969698" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.3297568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1109,6 +1104,8 @@
           <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2076#2077#0" expanded="true" />
+            <element signature="e#2166#2167#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1253,16 +1250,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/card/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1277,22 +1264,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shuffler/CardShuffler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/card/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="67" lean-forward="true" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+        <state relative-caret-position="181">
+          <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2076#2077#0" expanded="true" />
+            <element signature="e#2166#2167#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1307,10 +1286,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shuffler/CardShuffler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="67" lean-forward="true" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shuffler/BasicSuffler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#18#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/deck/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="54" column="75" selection-start-line="54" selection-start-column="75" selection-end-line="54" selection-end-column="75" />
+        <state relative-caret-position="160">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

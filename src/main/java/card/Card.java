@@ -87,7 +87,7 @@ public class Card {
 
     @Override
     public String toString() {
-        return "\tColor: " +  cardColor.toString() + "\tRank: " + cardRank.toString() + "\tSuit: " + cardSuit.toString();
+        return "\tRank: " + cardRank.toString() + "\tSuit: " + cardSuit.toString();
     }
 
     public static class CardBuilder {
