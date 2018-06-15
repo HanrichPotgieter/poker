@@ -4,6 +4,8 @@ import card.Card;
 import card.detials.CardColor;
 import card.detials.CardRank;
 import card.detials.CardSuit;
+import shuffler.BasicSuffler;
+import shuffler.CardShuffler;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -12,6 +14,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 public class Deck {
     private ArrayList<Card> cards;
+    private CardShuffler suffler = new BasicSuffler();
 
 
     public void printDeck(){
@@ -49,9 +52,9 @@ public class Deck {
         return cards.size();
     }
 
-    public void shuffle(){
-        Collections.shuffle(cards);
-    }
+    public void setSuffler(CardShuffler suffler) { this.suffler = suffler; }
+
+    public void shuffle(){ cards = this.suffler.shuffle(cards); }
 
     public static class DeckBuilder {
         public ArrayList<Card> getCards() {
