@@ -11,19 +11,31 @@ public class Main {
     private static final ArrayList<CardColor> cardColors = new ArrayList<>();
     private static final ArrayList<CardRank> cardRank = new ArrayList<>();
     private static final ArrayList<CardSuit> cardSuit = new ArrayList<>();
+    public static final String SHUFFLING = "Shuffling...";
     private static Deck deck;
 
     public static void main(String[] args){
 
         setupDefaults();
         buildDeck();
+        System.out.println(SHUFFLING);
         deck.shuffle();
-        deck.PrintDeck();
-        deck.orderByColor();
-        deck.PrintDeck();
-        System.out.println("Poker Application");
+        System.out.println(SHUFFLING);
+        deck.shuffle();
+        System.out.println(SHUFFLING);
+        deck.shuffle();
         Hand hand = new Hand();
-        hand.evaluate();
+        hand.addCard(deck.drawCard());
+        hand.addCard(deck.drawCard());
+        hand.addCard(deck.drawCard());
+        hand.addCard(deck.drawCard());
+        hand.addCard(deck.drawCard());
+        System.out.println("CARDS IN DECK");
+        deck.printDeck();
+        System.out.println("CARDS IN HAND");
+        System.out.println(hand.toString());
+        System.out.println("YOU HAVE A");
+        System.out.println(hand.evaluate());
 
     }
 

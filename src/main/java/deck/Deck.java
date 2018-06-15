@@ -14,7 +14,7 @@ public class Deck {
     private ArrayList<Card> cards;
 
 
-    public void PrintDeck(){
+    public void printDeck(){
         cards.forEach((card)->{
             System.out.println(card.toString());
         });
@@ -23,6 +23,15 @@ public class Deck {
 
     private Deck(DeckBuilder cardDeckBuilder){
         this.cards = cardDeckBuilder.getCards();
+
+    }
+
+    public Card drawCard(){
+        if(cards.size() > 0){
+            return cards.remove(0);
+        } else {
+            return null;
+        }
 
     }
 

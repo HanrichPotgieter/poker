@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ab8ae4-3bb5-459c-8320-4c43870c823e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hand/Hand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Hand/HandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/card/CardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/deck/DeckTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/card/Card$CardBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/card/Card$CardBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/card/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/card/Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/deck/CardDeck$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/deck/CardDeck$CardDeckBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/deck/CardDeck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hand/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hand/Hand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/card/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/card/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/deck/CardDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/deck/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/deck/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/deck/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Hand/HandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hand/HandTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -52,6 +44,16 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="com.hanrich.poker.pokertest" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="com.hanrich.poker.pokertest" type="f1a62948:ProjectNode" />
+                <item name="com.hanrich.poker.pokertest" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="com.hanrich.poker.pokertest" type="f1a62948:ProjectNode" />
+                <item name=":src.main" type="2d1252cf:ModuleNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -64,8 +66,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="351">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +87,8 @@
       <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/card/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            <state relative-caret-position="-940">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#221#222#0" expanded="true" />
@@ -109,8 +111,8 @@
       <file leaf-file-name="CardTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/card/CardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="161">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,8 +123,8 @@
       <file leaf-file-name="Deck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/deck/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="54" column="64" selection-start-line="54" selection-start-column="64" selection-end-line="54" selection-end-column="64" />
+            <state relative-caret-position="-538">
+              <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#623#624#0" expanded="true" />
@@ -136,27 +138,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hand.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Hand.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Hand/Hand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+            <state relative-caret-position="190">
+              <caret line="47" column="79" selection-start-line="47" selection-start-column="79" selection-end-line="47" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HandTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HandTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Hand/HandTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+            <state relative-caret-position="224">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,7 +169,7 @@
       <file leaf-file-name="DeckTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/deck/DeckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
+            <state relative-caret-position="435">
               <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -203,6 +205,12 @@
         <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pr</find>
+      <find>getand</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -724,17 +732,17 @@
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/card/CardBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/card/CardTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/deck/Deck.java" />
         <option value="$PROJECT_DIR$/src/test/java/deck/DeckTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/Hand/MyHand.java" />
         <option value="$PROJECT_DIR$/src/main/java/card/MyCard.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyHand/MyHand.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyHand/Hand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/card/Card.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Hand/Hand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/Hand/HandTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/deck/Deck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/card/Card.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Hand/Hand.java" />
       </list>
     </option>
   </component>
@@ -879,7 +887,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HandTest.checkFullHouse">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="com.hanrich.poker.pokertest_main" />
@@ -888,14 +896,14 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="HandTest.checkFourOfAKind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in com.hanrich.poker.pokertest_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.hanrich.poker.pokertest_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Hand" />
-      <option name="MAIN_CLASS_NAME" value="Hand.HandTest" />
-      <option name="METHOD_NAME" value="checkFourOfAKind" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -905,14 +913,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HandTest.checkFullHouse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.hanrich.poker.pokertest_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Hand" />
-      <option name="MAIN_CLASS_NAME" value="Hand.HandTest" />
-      <option name="METHOD_NAME" value="checkFullHouse" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="card" />
+      <option name="MAIN_CLASS_NAME" value="card.CardTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -922,14 +930,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HandTest.checkHand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.hanrich.poker.pokertest_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Hand" />
-      <option name="MAIN_CLASS_NAME" value="Hand.HandTest" />
-      <option name="METHOD_NAME" value="checkHand" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="deck" />
+      <option name="MAIN_CLASS_NAME" value="deck.DeckTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -939,14 +947,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HandTest.checkStraightFlush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.hanrich.poker.pokertest_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Hand" />
       <option name="MAIN_CLASS_NAME" value="Hand.HandTest" />
-      <option name="METHOD_NAME" value="checkStraightFlush" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -977,19 +985,19 @@
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.HandTest" />
+      <item itemvalue="JUnit.DeckTest" />
+      <item itemvalue="JUnit.CardTest" />
+      <item itemvalue="JUnit.All in com.hanrich.poker.pokertest_test" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.HandTest.checkHand" />
-      <item itemvalue="JUnit.HandTest.checkFourOfAKind" />
-      <item itemvalue="JUnit.HandTest.checkStraightFlush" />
-      <item itemvalue="JUnit.HandTest.checkFullHouse" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HandTest.checkFullHouse" />
-        <item itemvalue="JUnit.HandTest.checkFourOfAKind" />
-        <item itemvalue="JUnit.HandTest.checkStraightFlush" />
-        <item itemvalue="JUnit.HandTest.checkHand" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in com.hanrich.poker.pokertest_test" />
+        <item itemvalue="JUnit.CardTest" />
+        <item itemvalue="JUnit.DeckTest" />
+        <item itemvalue="JUnit.HandTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1004,35 +1012,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HandTest_checkStraightFlush - 2018.06.15 at 16h 37m 08s.xml">
-      <configuration name="HandTest.checkStraightFlush" configurationId="JUnit" />
+    <history-entry file="HandTest_checkHighCard - 2018.06.15 at 17h 23m 37s.xml">
+      <configuration name="HandTest.checkHighCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest_checkStraightFlush - 2018.06.15 at 16h 37m 38s.xml">
-      <configuration name="HandTest.checkStraightFlush" configurationId="JUnit" />
+    <history-entry file="HandTest_checkHighCard - 2018.06.15 at 17h 24m 09s.xml">
+      <configuration name="HandTest.checkHighCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest_checkStraightFlush - 2018.06.15 at 16h 37m 52s.xml">
-      <configuration name="HandTest.checkStraightFlush" configurationId="JUnit" />
+    <history-entry file="HandTest_checkHighCard - 2018.06.15 at 17h 24m 53s.xml">
+      <configuration name="HandTest.checkHighCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest_checkStraightFlush - 2018.06.15 at 16h 38m 08s.xml">
-      <configuration name="HandTest.checkStraightFlush" configurationId="JUnit" />
+    <history-entry file="HandTest_checkHighCard - 2018.06.15 at 17h 25m 07s.xml">
+      <configuration name="HandTest.checkHighCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest_checkStraightFlush - 2018.06.15 at 16h 38m 23s.xml">
-      <configuration name="HandTest.checkStraightFlush" configurationId="JUnit" />
+    <history-entry file="HandTest - 2018.06.15 at 17h 25m 17s.xml">
+      <configuration name="HandTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest_checkStraightFlush - 2018.06.15 at 16h 38m 41s.xml">
-      <configuration name="HandTest.checkStraightFlush" configurationId="JUnit" />
+    <history-entry file="HandTest - 2018.06.15 at 17h 25m 21s.xml">
+      <configuration name="HandTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest_checkStraightFlush - 2018.06.15 at 16h 39m 05s.xml">
-      <configuration name="HandTest.checkStraightFlush" configurationId="JUnit" />
+    <history-entry file="HandTest - 2018.06.15 at 17h 25m 25s.xml">
+      <configuration name="HandTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest_checkStraightFlush - 2018.06.15 at 16h 39m 45s.xml">
-      <configuration name="HandTest.checkStraightFlush" configurationId="JUnit" />
+    <history-entry file="DeckTest - 2018.06.15 at 17h 25m 28s.xml">
+      <configuration name="DeckTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest_checkFourOfAKind - 2018.06.15 at 16h 40m 02s.xml">
-      <configuration name="HandTest.checkFourOfAKind" configurationId="JUnit" />
+    <history-entry file="CardTest - 2018.06.15 at 17h 25m 32s.xml">
+      <configuration name="CardTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest_checkFourOfAKind - 2018.06.15 at 16h 40m 22s.xml">
-      <configuration name="HandTest.checkFourOfAKind" configurationId="JUnit" />
+    <history-entry file="All_in_com_hanrich_poker_pokertest_test - 2018.06.15 at 17h 26m 18s.xml">
+      <configuration name="All in com.hanrich.poker.pokertest_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1046,12 +1054,12 @@
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50143063" side_tool="true" weight="0.32969698" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" sideWeight="0.49928468" weight="0.32969698" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Build" weight="0.32969698" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
       <window_info id="Learn" />
@@ -1074,7 +1082,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1119,10 +1127,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/deck/DeckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/card/CardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Hand/HandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/card/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        <state relative-caret-position="-940">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#221#222#0" expanded="true" />
@@ -1141,20 +1179,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/card/CardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/deck/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="54" column="64" selection-start-line="54" selection-start-column="64" selection-end-line="54" selection-end-column="64" />
+        <state relative-caret-position="-538">
+          <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#623#624#0" expanded="true" />
@@ -1167,10 +1195,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/deck/DeckTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        <state relative-caret-position="351">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1179,34 +1207,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Hand/Hand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        <state relative-caret-position="190">
+          <caret line="47" column="79" selection-start-line="47" selection-start-column="79" selection-end-line="47" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Hand/HandTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
           </folding>
         </state>
       </provider>
