@@ -1,8 +1,9 @@
 
+import Hand.Hand;
 import card.detials.CardColor;
 import card.detials.CardRank;
 import card.detials.CardSuit;
-import deck.CardDeck;
+import deck.Deck;
 
 import java.util.ArrayList;
 
@@ -10,19 +11,25 @@ public class Main {
     private static final ArrayList<CardColor> cardColors = new ArrayList<>();
     private static final ArrayList<CardRank> cardRank = new ArrayList<>();
     private static final ArrayList<CardSuit> cardSuit = new ArrayList<>();
+    private static Deck deck;
 
     public static void main(String[] args){
+
         setupDefaults();
         buildDeck();
+        deck.shuffle();
+        deck.PrintDeck();
+        deck.orderByColor();
+        deck.PrintDeck();
         System.out.println("Poker Application");
+        Hand hand = new Hand();
+        hand.evaluate();
+
     }
 
     private static void buildDeck() {
         try {
-            CardDeck deck = new CardDeck.CardDeckBuilder().setColors(cardColors).setSuits(cardSuit).setRanks(cardRank).build();
-            deck.orderBySuit();
-            deck.orderByColor();
-            deck.PrintDeck();
+            deck = new Deck.DeckBuilder().setColors(cardColors).setSuits(cardSuit).setRanks(cardRank).build();
         } catch(Exception e) {
             System.out.println(e.getMessage());
         }

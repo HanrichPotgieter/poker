@@ -6,28 +6,65 @@ import card.detials.CardRank;
 import card.detials.CardSuit;
 
 public class Card {
+
+    public static final char INVALID_CHAR = '0';
+
     public CardSuit getCardSuit() {
         return cardSuit;
-    }
-
-    public void setCardSuit(CardSuit cardSuit) {
-        this.cardSuit = cardSuit;
     }
 
     public CardColor getCardColor() {
         return cardColor;
     }
 
-    public void setCardColor(CardColor cardColor) {
-        this.cardColor = cardColor;
-    }
-
     public CardRank getCardRank() {
         return cardRank;
     }
 
-    public void setCardRank(CardRank cardRank) {
-        this.cardRank = cardRank;
+    public char getSuitToChar(){
+        switch (cardSuit){
+            case CLUBS:
+                return 'c';
+            case SPADES:
+                return 's';
+            case DIAMONDS:
+                return 'd';
+            case HEARTS:
+                return 'h';
+        }
+        return INVALID_CHAR;
+    }
+
+    public char getValueToChar(){
+        switch (cardRank){
+            case ACE:
+                return 'A';
+            case TWO:
+                return '2';
+            case THREE:
+                return '3';
+            case FOUR:
+                return '4';
+            case FIVE:
+                return '5';
+            case SIX:
+                return '6';
+            case SEVEN:
+                return '7';
+            case EIGHT:
+                return '8';
+            case NINE:
+                return '9';
+            case TEN:
+                return 'T';
+            case JACK:
+                return 'J';
+            case QUEEN:
+                return 'Q';
+            case KING:
+                return 'K';
+        }
+        return INVALID_CHAR;
     }
 
     private CardColor cardColor;

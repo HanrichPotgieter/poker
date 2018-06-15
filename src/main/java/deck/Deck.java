@@ -10,7 +10,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-public class CardDeck {
+public class Deck {
     private ArrayList<Card> cards;
 
 
@@ -21,8 +21,8 @@ public class CardDeck {
         System.out.println("Deck Size: " + cardCount());
     }
 
-    private CardDeck(CardDeckBuilder cardDeckBuilder){
-        this.cards = cardDeckBuilder.cards;
+    private Deck(DeckBuilder cardDeckBuilder){
+        this.cards = cardDeckBuilder.getCards();
 
     }
 
@@ -40,47 +40,40 @@ public class CardDeck {
         return cards.size();
     }
 
-    public static class CardDeckBuilder {
+    public void shuffle(){
+        Collections.shuffle(cards);
+    }
+
+    public static class DeckBuilder {
         public ArrayList<Card> getCards() {
             return cards;
         }
 
-        private ArrayList<Card> cards = new ArrayList<Card>();
-        private ArrayList<CardSuit> cardSuits;
-        private ArrayList<CardColor> cardColors;
-        private ArrayList<CardRank> cardRanks;
+        private ArrayList<Card> cards = new ArrayList<>();
+        private ArrayList<CardSuit> cardSuits = new ArrayList<>();
+        private ArrayList<CardColor> cardColors = new ArrayList<>();
+        private ArrayList<CardRank> cardRanks = new ArrayList<>();
 
-        public ArrayList<CardSuit> getCardSuits() {
-            return cardSuits;
-        }
+        public DeckBuilder() {}
 
-        public ArrayList<CardColor> getCardColors() {
-            return cardColors;
-        }
-        public ArrayList<CardRank> getCardRanks() {
-            return cardRanks;
-        }
-
-        public CardDeckBuilder() {}
-
-        public CardDeckBuilder setSuits(ArrayList<CardSuit> cardSuits){
+        public DeckBuilder setSuits(ArrayList<CardSuit> cardSuits){
             this.cardSuits = cardSuits;
             return this;
         }
 
-        public CardDeckBuilder setColors(ArrayList<CardColor> cardColors){
+        public DeckBuilder setColors(ArrayList<CardColor> cardColors){
             this.cardColors = cardColors;
             return this;
         }
 
-        public CardDeckBuilder setRanks(ArrayList<CardRank> cardRanks){
+        public DeckBuilder setRanks(ArrayList<CardRank> cardRanks){
             this.cardRanks = cardRanks;
             return this;
         }
 
-        public CardDeck build(){
+        public Deck build(){
             addCardsForSuit();
-            return new CardDeck(this);
+            return new Deck(this);
         }
 
         private void addCard(Card card){
