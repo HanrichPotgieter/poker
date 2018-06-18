@@ -8,3 +8,21 @@
 ```java
   Card card = new Card.CardBuilder().setCardColor(cardColor).setCardRank(cardRank).setCardSuit(cardSuit).build();
 ```
+
+## Creating a deck of cards
+
+```java
+    private static final ArrayList<CardColor> cardColors = new ArrayList<>();
+    private static final ArrayList<CardRank> cardRank = new ArrayList<>();
+    private static final ArrayList<CardSuit> cardSuit = new ArrayList<>();
+    //Colors
+    cardColors.add(CardColor.RED);
+    //Rank
+    cardRank.add(CardRank.ACE);
+    //Suits
+    cardSuit.add(CardSuit.CLUBS);
+    
+   Deck deck = new Deck.DeckBuilder().setColors(cardColors).setRanks(cardRank).setSuits(cardSuit).build();
+```
+
+This will create a deck with only one card.
