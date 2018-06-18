@@ -3,7 +3,7 @@
 2.  Deals a hand of 5 cards to the player.
 3.  Evaluates the players hand.
 
-## Creating a cards.
+## Creating a card.
 
 ```java
   Card card = new Card.CardBuilder().setCardColor(cardColor).setCardRank(cardRank).setCardSuit(cardSuit).build();
