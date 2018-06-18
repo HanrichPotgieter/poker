@@ -61,6 +61,4 @@ public class Hand {
         return handShortCode.get();
     }
 
-
-
 }

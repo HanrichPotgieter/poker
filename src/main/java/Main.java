@@ -20,11 +20,10 @@ public class Main extends DefaultSetup {
         System.out.println(SHUFFLING);
         deck.shuffle();
         Hand hand = new Hand();
-        hand.addCard(deck.drawCard());
-        hand.addCard(deck.drawCard());
-        hand.addCard(deck.drawCard());
-        hand.addCard(deck.drawCard());
-        hand.addCard(deck.drawCard());
+        for(int i = 0; i < 5; i++){
+            hand.addCard(deck.drawCard());
+        }
+
         System.out.println("CARDS IN DECK");
         deck.printDeck();
         System.out.println("CARDS IN HAND");
