@@ -6,6 +6,9 @@ import shuffler.BasicSuffler;
 public class Main extends DefaultSetup {
 
     public static final String SHUFFLING = "Shuffling...";
+    public static final int TIMES_TO_SUFFLE = 3;
+    public static final int CARDS_TO_DRAW = 5;
+    public static final int START_INDEX = 0;
     private static Deck deck;
 
     public static void main(String[] args){
@@ -13,16 +16,14 @@ public class Main extends DefaultSetup {
         setupDefaults();
         buildDeck();
         deck.setSuffler(new BasicSuffler());
-        System.out.println(SHUFFLING);
-        deck.shuffle();
-        System.out.println(SHUFFLING);
-        deck.shuffle();
-        System.out.println(SHUFFLING);
-        deck.shuffle();
-        Hand hand = new Hand();
-        for(int i = 0; i < 5; i++){
-            hand.addCard(deck.drawCard());
+        for(int i = 0; i < TIMES_TO_SUFFLE; i++){
+            System.out.println(SHUFFLING);
+            deck.shuffle();
         }
+
+        Hand hand = new Hand();
+
+        for(int i = START_INDEX; i < CARDS_TO_DRAW; i++){ hand.addCard(deck.drawCard()); }
 
         System.out.println("CARDS IN DECK");
         deck.printDeck();
