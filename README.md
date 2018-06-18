@@ -16,7 +16,7 @@
     private static final ArrayList<CardRank> cardRank = new ArrayList<>();
     private static final ArrayList<CardSuit> cardSuit = new ArrayList<>();
     //Colors
-    cardColors.add(CardColor.RED);
+    cardColors.add(CardColor.BLACK);
     //Rank
     cardRank.add(CardRank.ACE);
     //Suits
