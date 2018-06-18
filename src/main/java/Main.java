@@ -10,21 +10,15 @@ public class Main extends DefaultSetup {
     public static final int CARDS_TO_DRAW = 5;
     public static final int START_INDEX = 0;
     private static Deck deck;
+    private static Hand hand;
 
     public static void main(String[] args){
 
         setupDefaults();
         buildDeck();
-        deck.setSuffler(new BasicSuffler());
-        for(int i = 0; i < TIMES_TO_SUFFLE; i++){
-            System.out.println(SHUFFLING);
-            deck.shuffle();
-        }
-
-        Hand hand = new Hand();
-
-        for(int i = START_INDEX; i < CARDS_TO_DRAW; i++){ hand.addCard(deck.drawCard()); }
-
+        suffleDeck(deck);
+        hand = new Hand();
+        addCardsToPlayerHand();
         System.out.println("CARDS IN DECK");
         deck.printDeck();
         System.out.println("CARDS IN HAND");
@@ -33,6 +27,18 @@ public class Main extends DefaultSetup {
         System.out.println(hand.evaluate());
 
 
+    }
+
+    private static void addCardsToPlayerHand() {
+        for(int i = START_INDEX; i < CARDS_TO_DRAW; i++){ Main.hand.addCard(Main.deck.drawCard()); }
+    }
+
+    private static void suffleDeck(Deck deck) {
+        deck.setSuffler(new BasicSuffler());
+        for(int i = 0; i < TIMES_TO_SUFFLE; i++){
+            System.out.println(SHUFFLING);
+            deck.shuffle();
+        }
     }
 
     private static void buildDeck() {
