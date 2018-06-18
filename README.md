@@ -6,9 +6,5 @@
 ## Creating a cards.
 
 ```java
-  Card card = new Card.CardBuilder()
-                .setCardColor(cardColor)
-                .setCardRank(cardRank)
-                .setCardSuit(cardSuit)
-                .build();
+  Card card = new Card.CardBuilder().setCardColor(cardColor).setCardRank(cardRank).setCardSuit(cardSuit).build();
 ```
