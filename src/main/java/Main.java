@@ -5,10 +5,10 @@ import shuffler.BasicSuffler;
 
 public class Main extends DefaultSetup {
 
-    public static final String SHUFFLING = "Shuffling...";
-    public static final int TIMES_TO_SUFFLE = 3;
-    public static final int CARDS_TO_DRAW = 5;
-    public static final int START_INDEX = 0;
+    private static final String SHUFFLING = "Shuffling...";
+    private static final int TIMES_TO_SUFFLE = 3;
+    private static final int CARDS_TO_DRAW = 5;
+    private static final int START_INDEX = 0;
     private static Deck deck;
     private static Hand hand;
 
@@ -25,7 +25,6 @@ public class Main extends DefaultSetup {
         System.out.println(hand.toString());
         System.out.println("YOU HAVE A");
         System.out.println(hand.evaluate());
-
 
     }
 
