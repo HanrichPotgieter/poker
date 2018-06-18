@@ -9,7 +9,7 @@
   Card card = new Card.CardBuilder().setCardColor(cardColor).setCardRank(cardRank).setCardSuit(cardSuit).build();
 ```
 
-## Creating a deck of cards
+## Creating and shuffling deck of cards
 
 ```java
     private static final ArrayList<CardColor> cardColors = new ArrayList<>();
@@ -23,6 +23,8 @@
     cardSuit.add(CardSuit.CLUBS);
     
    Deck deck = new Deck.DeckBuilder().setColors(cardColors).setRanks(cardRank).setSuits(cardSuit).build();
+   
+   deck.shuffle();
 ```
 
 This will create a deck with only one card.
