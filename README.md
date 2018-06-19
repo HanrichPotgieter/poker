@@ -6,20 +6,20 @@
 ## Building the Application
 
 ```
-gradle -PmainClass=Main build
+gradle build
 ```
 
 
 ## Running Tests
 
 ```
-./gradlew -PmainClass=Main test
+./gradlew test
 ```
 
 ## Executing the Application
 
 ```
-gradle -PmainClass=Main execute
+gradle execute
 ```
 
 
