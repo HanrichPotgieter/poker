@@ -11,15 +11,15 @@ import static org.junit.Assert.*;
 
 public class HandTest {
 
-    public static final String STRAIGHT_FLUSH = "STRAIGHT_FLUSH";
-    public static final String FOUR_OF_A_KIND = "FOUR_OF_A_KIND";
-    public static final String FULL_HOUSE = "FULL_HOUSE";
-    public static final String FLUSH = "FLUSH";
-    public static final String STRAIGHT = "STRAIGHT";
-    public static final String THREE_OF_A_KIND = "THREE_OF_A_KIND";
-    public static final String TWO_PAIR = "TWO_PAIR";
-    public static final String ONE_PAIR = "PAIR";
-    public static final String HIGH_CARD = "HIGH_CARD";
+    private static final String STRAIGHT_FLUSH = "STRAIGHT_FLUSH";
+    private static final String FOUR_OF_A_KIND = "FOUR_OF_A_KIND";
+    private static final String FULL_HOUSE = "FULL_HOUSE";
+    private static final String FLUSH = "FLUSH";
+    private static final String STRAIGHT = "STRAIGHT";
+    private static final String THREE_OF_A_KIND = "THREE_OF_A_KIND";
+    private static final String TWO_PAIR = "TWO_PAIR";
+    private static final String ONE_PAIR = "PAIR";
+    private static final String HIGH_CARD = "HIGH_CARD";
 
     Hand hand = new Hand();
     @Before

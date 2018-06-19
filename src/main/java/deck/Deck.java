@@ -16,17 +16,16 @@ public class Deck {
     private ArrayList<Card> cards;
     private CardShuffler suffler = new BasicSuffler();
 
+    private Deck(DeckBuilder cardDeckBuilder){
+        this.cards = cardDeckBuilder.getCards();
+
+    }
 
     public void printDeck(){
         cards.forEach((card)->{
             System.out.println(card.toString());
         });
         System.out.println("Deck Size: " + cardCount());
-    }
-
-    private Deck(DeckBuilder cardDeckBuilder){
-        this.cards = cardDeckBuilder.getCards();
-
     }
 
     public Card drawCard(){
@@ -57,10 +56,9 @@ public class Deck {
     public void shuffle(){ cards = this.suffler.shuffle(cards); }
 
     public static class DeckBuilder {
-        public ArrayList<Card> getCards() {
+        private ArrayList<Card> getCards() {
             return cards;
         }
-
         private ArrayList<Card> cards = new ArrayList<>();
         private ArrayList<CardSuit> cardSuits = new ArrayList<>();
         private ArrayList<CardColor> cardColors = new ArrayList<>();
@@ -84,7 +82,7 @@ public class Deck {
         }
 
         public Deck build(){
-            addCardsForSuit();
+            addCardsForRank();
             return new Deck(this);
         }
 
@@ -108,21 +106,22 @@ public class Deck {
             }
         }
 
-        private void addCardsForSuit() {
-            cardRanks.forEach((r)->{
-                cardSuits.forEach((s)->{
-                    try {
-                        CardColor cardColor = getColor(s);
-                        if(cardColors.contains(cardColor)) {
-                            Card card = new Card.CardBuilder().setCardColor(getColor(s)).setCardRank(r).setCardSuit(s).build();
-                            addCard(card);
-                        }
-                    } catch (Exception e){
-                        System.out.println(e.getLocalizedMessage());
-                    }
-                });
-            });
+        private void addCardsForRank() {
+            cardRanks.forEach(this::addCardsForRank);
+        }
 
+        private void addCardsForRank(CardRank r) {
+            cardSuits.forEach((s)->{
+                try {
+                    CardColor cardColor = getColor(s);
+                    if(cardColors.contains(cardColor)) {
+                        Card card = new Card.CardBuilder().setCardColor(getColor(s)).setCardRank(r).setCardSuit(s).build();
+                        addCard(card);
+                    }
+                } catch (Exception e){
+                    System.out.println(e.getLocalizedMessage());
+                }
+            });
         }
 
     }

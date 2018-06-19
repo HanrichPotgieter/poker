@@ -17,10 +17,6 @@ import codes.derive.foldem.eval.Evaluator;
 public class Hand {
     private ArrayList<Card> cards = new ArrayList<>();
 
-    public Hand(){
-
-    }
-
     @Override
     public String toString() {
         AtomicReference<String> s = new AtomicReference<>("");
@@ -44,8 +40,6 @@ public class Hand {
         Evaluator eval = evaluator();
 
         String handShortCode = buildHandString();
-        //System.out.println(handShortCode.substring(0,4));
-        //System.out.println(handShortCode.substring(4,handShortCode.length()));
 
         Board board = board(handShortCode.substring(0,6));
         codes.derive.foldem.Hand hand = hand(handShortCode.substring(6,handShortCode.length()));

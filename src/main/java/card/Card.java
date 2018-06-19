@@ -6,8 +6,16 @@ import card.detials.CardRank;
 import card.detials.CardSuit;
 
 public class Card {
+    private static final char INVALID_CHAR = '0';
+    private CardColor cardColor;
+    private CardRank cardRank;
+    private CardSuit cardSuit;
 
-    public static final char INVALID_CHAR = '0';
+    private Card(CardBuilder cardBuilder){
+        this.cardColor = cardBuilder.getCardColor();
+        this.cardRank = cardBuilder.getCardRank();
+        this.cardSuit = cardBuilder.getCardSuit();
+    }
 
     public CardSuit getCardSuit() {
         return cardSuit;
@@ -31,8 +39,9 @@ public class Card {
                 return 'd';
             case HEARTS:
                 return 'h';
+            default:
+                return INVALID_CHAR;
         }
-        return INVALID_CHAR;
     }
 
     public char getValueToChar(){
@@ -65,16 +74,6 @@ public class Card {
                 return 'K';
         }
         return INVALID_CHAR;
-    }
-
-    private CardColor cardColor;
-    private CardRank cardRank;
-    private CardSuit cardSuit;
-
-    private Card(CardBuilder cardBuilder){
-        this.cardColor = cardBuilder.getCardColor();
-        this.cardRank = cardBuilder.getCardRank();
-        this.cardSuit = cardBuilder.getCardSuit();
     }
 
     @Override
@@ -130,6 +129,5 @@ public class Card {
             return new Card(this);
         }
     }
-
 
 }

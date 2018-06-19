@@ -10,18 +10,16 @@ import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 
-
 public class DeckTest {
     private static final ArrayList<CardColor> cardColors = new ArrayList<>();
     private static final ArrayList<CardRank> cardRank = new ArrayList<>();
     private static final ArrayList<CardSuit> cardSuit = new ArrayList<>();
-    public static final int EMPTY_CARD_COUNT = 0;
+    private static final int EMPTY_CARD_COUNT = 0;
     private static final int DECK_LENGTH = 2;
 
     @Before
     public void setupTest(){
         setupDefaults();
-
     }
 
     @Test
@@ -34,7 +32,6 @@ public class DeckTest {
     public void checkDeckCreation(){
         Deck deck = new Deck.DeckBuilder().setColors(cardColors).setRanks(cardRank).setSuits(cardSuit).build();
         assertEquals(deck.cardCount(), DECK_LENGTH);
-
     }
 
     private static void setupDefaults() {
