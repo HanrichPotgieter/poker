@@ -3,6 +3,20 @@
 2.  Deals a hand of 5 cards to the player.
 3.  Evaluates the players hand.
 
+## Building the Application
+
+```
+gradle build --info
+```
+
+
+## Running Tests
+
+```
+./gradlew test
+```
+
+
 ## Creating a card.
 
 ```java
